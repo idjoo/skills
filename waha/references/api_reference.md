@@ -4,7 +4,7 @@ API: WAHA - WhatsApp HTTP API v2026.2.1 ([docs](https://waha.devlike.pro/))
 
 ## Authentication
 
-All requests require header `X-Api-Key: <key>`. Config is in `~/documents/whatsapp/.env`.
+All requests require header `X-Api-Key: <key>`. Config is in `~/documents/waha/.env`.
 
 ## Chat ID Formats
 

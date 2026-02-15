@@ -1,4 +1,4 @@
-"""Shared WAHA API client. Loads config from ~/documents/whatsapp/.env."""
+"""Shared WAHA API client. Loads config from ~/documents/waha/.env."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from pathlib import Path
 
 import httpx
 
-_ENV_PATH = Path.home() / "documents" / "whatsapp" / ".env"
+_ENV_PATH = Path.home() / "documents" / "waha" / ".env"
 
 
 def _load_env() -> None:
@@ -32,7 +32,7 @@ API_KEY = os.environ.get("WAHA_API_KEY", "")
 
 if not API_KEY:
     print(
-        "Error: WAHA_API_KEY not set. Check ~/documents/whatsapp/.env", file=sys.stderr
+        "Error: WAHA_API_KEY not set. Check ~/documents/waha/.env", file=sys.stderr
     )
     sys.exit(1)
 

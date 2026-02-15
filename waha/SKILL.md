@@ -1,15 +1,15 @@
 ---
-name: whatsapp
-description: "Send and manage WhatsApp messages via WAHA HTTP API. Use when the user wants to send WhatsApp messages (text, image, video, voice, file), read chats/messages, manage contacts, groups, or sessions. Triggers on: 'send a WhatsApp message', 'check my WhatsApp chats', 'send image on WhatsApp', 'WhatsApp group', 'WhatsApp session', or any WhatsApp-related task."
+name: waha
+description: "Send and manage WhatsApp messages via WAHA HTTP API. Use when the user wants to send WhatsApp messages (text, image, video, voice, file), read chats/messages, manage contacts, groups, or sessions. Triggers on: 'send a WhatsApp message', 'check my WhatsApp chats', 'send image on WhatsApp', 'WhatsApp group', 'WhatsApp session', 'WAHA', or any WhatsApp-related task."
 ---
 
-# WhatsApp (WAHA API)
+# WAHA (WhatsApp HTTP API)
 
-Interact with WhatsApp via [WAHA](https://waha.devlike.pro/) HTTP API. All scripts use `uv run --with httpx` and read config from `~/documents/whatsapp/.env`.
+Interact with WhatsApp via [WAHA](https://waha.devlike.pro/) HTTP API. All scripts use `uv run --with httpx` and read config from `~/documents/waha/.env`.
 
 ## Configuration
 
-Scripts auto-load `~/documents/whatsapp/.env`. Required variables:
+Scripts auto-load `~/documents/waha/.env`. Required variables:
 
 - `WAHA_API_KEY` - API key (sent as `X-Api-Key` header)
 - `WAHA_BASE_URL` - Base URL (e.g. `https://whatsapp.wyvern-vector.ts.net`)
