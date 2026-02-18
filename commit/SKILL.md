@@ -1,7 +1,6 @@
 ---
 name: commit
 description: "Smart atomic commits with Conventional Commits and emoji. Use when committing changes, creating git commits, or when the user says 'commit'. Analyzes workspace changes, splits into logical atomic units, and commits with emoji conventional format (type(scope): emoji description)."
-disable-model-invocation: true
 ---
 
 # Smart Atomic Commits
